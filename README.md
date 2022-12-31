@@ -14,7 +14,7 @@ Seazone case solution
 
 **Steps to install and execute this project:**
 1. git clone this repository
-2. navigate to the source of this repository
+2. navigate to the root of this repository
 3. run "pip install -r requirements.txt"
 4. make sure that all data is in the correct folder
 5. run "python -m src.solve_case"
