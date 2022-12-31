@@ -1,7 +1,23 @@
-seazone_case
+Seazone case solution
 ==============================
 
-Seazone case solution
+**Make sure that raw data files are in "data/raw"**
+
+Data files considered in this case should have the following names:
+1. Details_Data.csv
+2. Hosts_ids_Itapema.csv
+3. Mesh_Ids_Data_Itapema.csv
+4. Price_AV_Itapema-001.csv
+5. VivaReal_Itapema.csv
+
+**Steps to install and execute this project:**
+1. git clone this repository
+2. navigate to the source of this repository
+3. run "pip install -r requirements.txt"
+4. make sure that all data is in the correct folder
+5. run "python -m src.solve_case"
+6. figures will be in "reports/figures"
+7. the final PDF report is in "reports"
 
 Project Organization
 ------------
@@ -42,24 +58,3 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
-**Make sure that raw data files are in "data/raw"**
-Data files considered in this case should have the following names:
-1. Details_Data.csv
-2. Hosts_ids_Itapema.csv
-3. Mesh_Ids_Data_Itapema.csv
-4. Price_AV_Itapema-001.csv
-5. VivaReal_Itapema.csv
-
-Steps to install and execute this project:
-1. git clone this repository
-2. navigate to the source of this repository
-3. run "pip install -r requirements.txt"
-4. make sure that all data is in the correct folder
-5. run "python -m src.solve_case"
-6. figures will be in "reports/figures"
-7. the final PDF report is in "reports"
-
-run "python -m src.solve_case"
-imgs will be in "x"
-report in PDF
