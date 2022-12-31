@@ -78,7 +78,7 @@ def plot_encoded_columns(df, encoded_columns, show=True, save_path=""):
         
         plot_number_of(df = df, 
                     col = col, 
-                    title = f'Apartments on Airbnb with \'{col}\'', 
+                    title = f'Apartments on Airbnb with\n\'{col}\'', 
                     xlabel = '',
                     figsize = (6,6),
                     show=show,

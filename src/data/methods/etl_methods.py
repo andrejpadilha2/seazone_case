@@ -361,6 +361,9 @@ def get_price_sqm(df):
 
 def clean_vivareal_listings(df):
     
+    # Drop duplicates, keeping only one
+    df.drop_duplicates(subset='listing_id', inplace=True)
+
     # Location columns need to be cleaned
     location_columns = ["address_city", "address_neighborhood", \
                         "address_street", "address_street_number"]

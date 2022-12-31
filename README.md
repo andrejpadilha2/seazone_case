@@ -1,9 +1,11 @@
 Seazone case solution
 ==============================
 
-**Make sure that raw data files are in "data/raw"**
+**Read the report on "reports/Seazone Challenge Report.pdf"**
 
-Data files considered in this case should have the following names:
+**Make sure that all raw data files are in a folder in the following path of this project: "data/raw"**
+
+**Data files considered in this case should have the following names:**
 1. Details_Data.csv
 2. Hosts_ids_Itapema.csv
 3. Mesh_Ids_Data_Itapema.csv
@@ -30,27 +32,24 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks.
     │
     ├── references         <- Explanatory materials.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc. Final report is here.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Final report.
+    │   └── figures        <- Figures used to analyze and create the report.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment.
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
+    │   ├── data           <- All scripts
+    │   │  
     │   │
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    │   └── visualization  <- Empty
+    │    
     │
     └── 
 
